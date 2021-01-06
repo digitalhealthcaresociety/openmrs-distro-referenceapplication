@@ -14,7 +14,6 @@
 		<module>package</module>
 		<module>ui-tests</module>
 	</modules>
-
 	<organization>
 		<name>OpenMRS</name>
 		<url>http://openmrs.org</url>
