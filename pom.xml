@@ -14,10 +14,22 @@
 		<module>package</module>
 		<module>ui-tests</module>
 	</modules>
-	<organization>
-		<name>OpenMRS</name>
-		<url>http://openmrs.org</url>
-	</organization>
+	<developers>
+	   <developer>
+			<name>Sharif Magembe</name>
+		</developer>
+		 <developer>
+			<name>Prabakaran Seerangagounderpudur Perumalsamy</name>
+		</developer>
+		 <developer>
+			<name>Saravanan</name>
+		</developer>
+	</developers>
+	
+		<organization>
+			<name>digitalhealthcaresociety</name>
+			<url>http://digitalhealthcaresociety.org/</url>
+		</organization>
 
 	<scm>
 		<connection>scm:git:git@github.com:openmrs/openmrs-distro-referenceapplication.git</connection>
@@ -1213,16 +1225,16 @@
 		</pluginRepository>
 	</pluginRepositories>
 
-	<distributionManagement>
+<distributionManagement>
         <repository>
-            <id>openmrs-repo-releases</id>
-            <name>Releases</name>
-            <url>http://mavenrepo.openmrs.org/nexus/content/repositories/releases</url>
+            <id>digitalhealth-repo-releases</id>
+            <name>digitalHealthcare-Releases</name>
+            <url>https://digitalhealthcaresociety.jfrog.io/artifactory/digitalhealthsociety_repository/modules</url>
         </repository>
         <snapshotRepository>
-            <id>openmrs-repo-snapshots</id>
-            <name>OpenMRS Snapshots</name>
-            <url>http://mavenrepo.openmrs.org/nexus/content/repositories/snapshots</url>
+            <id>digitalhealthcaresociety-repo-snapshots</id>
+            <name>digitalhealthcaresociety Snapshots</name>
+            <url>https://digitalhealthcaresociety.jfrog.io/artifactory/digitalhealthsociety_repository/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 </project>
