@@ -83,7 +83,7 @@
 		<reportinguiVersion>1.7.0</reportinguiVersion>
 		<addresshierarchyVersion>2.14.2</addresshierarchyVersion>
 		<attachmentsVersion>2.4.0</attachmentsVersion>
-		<drugOrdersVersion>1.0-SNAPSHOT</drugOrdersVersion>
+		<drugordersVersion>1.0-SNAPSHOT</drugordersVersion>
 		<!-- OWAs -->
 		<sysadminVersion>1.2</sysadminVersion>
 
@@ -291,6 +291,12 @@
 				<groupId>org.openmrs.module</groupId>
 				<artifactId>serialization.xstream-api-2.0</artifactId>
 				<version>${serialization.xstreamVersion}</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.openmrs.module</groupId>
+				<artifactId>drugorders-api</artifactId>
+				<version>${drugordersVersion}</version>
 				<scope>provided</scope>
 			</dependency>
 			<dependency>
