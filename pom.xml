@@ -173,6 +173,14 @@
 				<version>${uiframeworkVersion}</version>
 				<scope>provided</scope>
 			</dependency>
+				
+			<dependency>
+				<groupId>org.openmrs.module.drugorders</groupId>
+				<artifactId>drugorders-omod</artifactId>
+				<version>${drugordersVersion}</version>
+				<scope>provided</scope>
+			</dependency>
+			
 			<dependency>
 				<groupId>org.openmrs.module</groupId>
 				<artifactId>registrationcore-api</artifactId>
@@ -634,12 +642,12 @@
 				<version>${appframeworkVersion}</version>
 				<scope>provided</scope>
 			</dependency>
-			<dependency>
-				<groupId>org.openmrs.module</groupId>
+		<!--  <dependency>
+				<groupId>org.openmrs.module.drugorders</groupId>
 				<artifactId>drugorders-omod</artifactId>
 				<version>${drugordersVersion}</version>
 				<scope>provided</scope>
-			</dependency>
+			</dependency>-->	
 			<dependency>
 				<groupId>org.openmrs.module</groupId>
 				<artifactId>uiframework-omod</artifactId>
