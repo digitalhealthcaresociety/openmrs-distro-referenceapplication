@@ -293,12 +293,12 @@
 				<version>${serialization.xstreamVersion}</version>
 				<scope>provided</scope>
 			</dependency>
-			<dependency>
+			<!-- <dependency>
 				<groupId>org.openmrs.module</groupId>
 				<artifactId>drugorders-api</artifactId>
 				<version>${drugordersVersion}</version>
-				<scope>provided</scope>
-			</dependency>
+				<scope>provided</scope> 
+			</dependency> -->
 			<dependency>
 				<groupId>org.openmrs.module</groupId>
 				<artifactId>htmlwidgets-api</artifactId>
