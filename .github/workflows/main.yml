@@ -1,0 +1,8 @@
+action "JFrog CLI for GitHub Actions" {
+  uses = "retgits/actions/jfrog-cli@master"
+  secrets = ["USER", "PASSWORD", "URL"]
+  args = ["cmd"]
+  env = {
+    CRED = "username"
+  }
+}
