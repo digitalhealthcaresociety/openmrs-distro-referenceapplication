@@ -1227,7 +1227,7 @@
 			</snapshots>
 		</pluginRepository>
 	</pluginRepositories>
-
+<!-- TODO check with current jfrog artifcatory -->
 <distributionManagement>
         <repository>
             <id>digitalhealth-repo-releases</id>
